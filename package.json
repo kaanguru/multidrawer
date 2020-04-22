@@ -1,0 +1,53 @@
+{
+  "name": "multidrawer",
+  "version": "1.0.0",
+  "description": "A multidrawer test NativeScript-Vue",
+  "author": "netlesh <netlesh@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tns debug android",
+    "devn": "tns debug android --no-hmr"
+  },
+  "nativescript": {
+    "id": "org.nativescript.application",
+    "templateVersion": "v2",
+    "tns-android": {
+      "version": "6.5.0"
+    },
+    "tns-ios": {
+      "version": "6.5.0"
+    }
+  },
+  "dependencies": {
+    "@nativescript/theme": "^2.3.3",
+    "@vue/devtools": "^5.3.3",
+    "apollo-boost": "^0.4.7",
+    "axios": "^0.19.2",
+    "css-loader": "^3.4.2",
+    "graphql": "^14.6.0",
+    "nativescript-socketio": "^3.3.1",
+    "nativescript-toasty": "^1.3.0",
+    "nativescript-ui-sidedrawer": "^7.0.0",
+    "nativescript-vue": "^2.6.0",
+    "nativescript-vue-devtools": "^1.2.0",
+    "nativescript-vue-multi-drawer": "^0.0.2",
+    "tns-core-modules": "^6.5.1",
+    "vue-apollo": "^3.0.3",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@types/node": "^13.11.1",
+    "babel-loader": "^8.1.0",
+    "nativescript-dev-webpack": "^1.5.1",
+    "nativescript-vue-template-compiler": "^2.6.0",
+    "nativescript-worker-loader": "~0.11.0",
+    "node-sass": "^4.13.1",
+    "tns-platform-declarations": "^6.5.1",
+    "typescript": "^3.8.3",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
